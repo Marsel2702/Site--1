@@ -1,0 +1,39 @@
+.all-projects{
+    padding: 100px 0 130px;
+    background-color: #F6F6F8;
+}
+.all-projects-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+}
+.all-projects-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin: 50px 0 70px;
+}
+.all-projects-button{
+    margin: 50px auto 0;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 36px;
+    background-color: #4985FF;
+    color: white;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.all-projects-button:hover{
+    background-color: #345fb5;
+    transition: 0.6s;
+}
+
+

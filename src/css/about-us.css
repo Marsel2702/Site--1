@@ -1,0 +1,54 @@
+.about-us{
+    padding: 100px 0 90px;
+    background-color: #F6F6F8;
+}
+.about-us-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    margin-top: 50px;
+}
+.about-us-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin: 40px 0 30px;
+}
+.about-us-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4985FF;
+}
+.about-us-img{
+    width: 500px;
+    height: 400px;
+}
+.about-us-projects{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 160px;
+}
+.about-us-projects::before{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #E0E0E0;
+    position: absolute;
+    top: 70px;
+}
+.about-us-number{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    display: inline-block;
+}
+.about-us-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}

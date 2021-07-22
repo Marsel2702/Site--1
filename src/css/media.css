@@ -1,0 +1,218 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .first-screen {
+        height: 75vh;
+    }
+
+    .services-content {
+        top: 115px;
+    }
+
+    .services-button {
+        margin-top: 270px;
+    }
+
+    .about-us-img {
+        width: 425px;
+        height: 330px;
+    }
+
+    .all-services-col-4 {
+        width: 50%;
+    }
+
+    .all-services-item {
+        margin-bottom: 20px;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .all-projects-item {
+        margin-bottom: 20px;
+    }
+
+    .video-block {
+        height: 400px;
+        width: 800px;
+    }
+
+    .subscribe-email {
+        left: 45px;
+    }
+    .subscribe-submit {
+        right: 45px;
+    }
+
+
+
+
+
+    .mobile-btn{
+        display: flex;
+    }
+    .show-mobile-btn span{
+        background: transparent;
+    }
+    .show-mobile-btn span::before,
+    .show-mobile-btn span::after{
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .show-mobile-btn span::before{
+        transform: rotate(45deg);
+    }
+    .show-mobile-btn span::after{
+        transform: rotate(-45deg);
+    }
+    .header__block{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: orange;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        right: -100%;
+        transition: 0.6s;
+    }
+    .show-menu{
+        right: 0;
+    }
+    .show-header_link {
+        margin-bottom: 20px;
+    }
+    .show-header_link:after{
+        background: black;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 650px;
+    }
+
+    .first-screen-title {
+        font-size: 35px;
+    }
+
+    .first-screen {
+        height: 55vh;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .about-us-item {
+        margin-bottom: 20px;
+    }
+
+    .about-us-projects {
+        flex-wrap: wrap;
+    }
+
+    .about-us-block {
+        width: 33.3%;
+        text-align: center;
+    }
+
+    .all-services-col-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        max-width: 480px;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .first-screen-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .first-screen-button{
+        padding: 10px 22px;
+    }
+
+    .services{
+        padding: 60px 0;
+    }
+
+    .services-button{
+        margin-top: 10px;
+    }
+
+    .about-us{
+        padding: 10px 0 40px;
+    }    
+
+    .all-services-block{
+        display: block;
+    }
+
+    .all-services-button{
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .all-services{
+        padding-bottom: 40px;
+    }
+
+    .services-item, .services-img, .services-content {
+        position: static;
+    }
+
+    .services-content {
+        margin: 25px 0;
+    }
+
+    .about-us-block {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .all-projects-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-address {
+        margin-bottom: 20px;
+    }
+
+    .all-services-button {
+        height: 80px;
+    }
+
+    .video-block {
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.footer{
+    padding: 70px 0;
+    background-color: #F6F6F8;
+}
+.footer-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+.footer-contact, a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+.footer-emial{
+    list-style-image: url("../images/footer/Group.svg");
+    margin-left: 20px;
+}
+.footer-tel{
+    list-style-image: url("../images/footer/Group (1).svg");
+    margin: 30px 0 30px 20px;
+}
+.footer-address{
+    list-style-image: url("../images/footer/placeholder.svg");
+    margin-left: 20px;
+}
+.footer-link{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    list-style-image: url("../images/footer/Group (2).svg");
+    margin: 0 0 30px 20px;
+}

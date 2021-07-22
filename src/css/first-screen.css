@@ -1,0 +1,37 @@
+.first-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../images/first-screen/Rectangle (5).png") left top/100% 100%;
+    color: white;
+    text-align: center;
+}
+.first-screen-description{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.first-screen-title{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 20px 0 50px;
+}
+.first-screen-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 36px;
+    background-color: #4985FF;
+    color: white;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.first-screen-button:hover{
+    background-color: #345fb5;
+    transition: 0.6s;
+}
